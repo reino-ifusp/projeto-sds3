@@ -25,7 +25,7 @@ const DataTable = () => {
             });
     }, [activePage]);
 
-    //Funcao recebe um inice e atribui na pagina.
+    //Funcao recebe um indice e atribui na pagina.
     const changePage = (index: number) => {
         setActivePage(index);
     }   
